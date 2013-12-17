@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:hint="@string/ipAddress"
+              android:inputType="phone"
+              android:id="@+id/dialog_ip_port_ip" />
+    
+    <EditText android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:hint="@string/port"
+              android:inputType="phone"
+              android:id="@+id/dialog_ip_port_port" />
+    
+    <Button android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/connect"
+            android:id="@+id/dialog_ip_port_connect" />
+    
+</LinearLayout>

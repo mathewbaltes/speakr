@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/serverView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Server textView)"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/serverIP2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Server IP: "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/playingSong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song: "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/activity_udp_startserver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startserver" />
+    
+    <Button
+        android:id="@+id/activity_udp_startmusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startmusic" />
+    
+    <Button
+        android:id="@+id/activity_udp_changeMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Music" />
+
+</LinearLayout>
